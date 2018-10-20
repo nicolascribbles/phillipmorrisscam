@@ -1,0 +1,222 @@
+main, body {
+  background-image:url('https://www.walldevil.com/wallpapers/a11/background-wallpaper-abstract-presentations-advertisements-backgrounds-web-red-dark.jpg');
+  position:static;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+@media (max-width: 650px){
+nav ul {
+    flex-direction: column;
+  }}
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(227, 210, 28, .9);
+  border-style: solid;
+}
+footer {
+  position: static;
+  bottom:0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(224, 56, 0, 1);
+  border-style: solid;
+ 
+  font-family: 'Ubuntu';
+}
+nav {
+  margin-top: 10px;
+  width:100%;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px;
+  color: #aaa;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 25px;
+
+}
+@media (max-width: 650px)
+nav {
+  margin-top: 10px;
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px;
+  color: #aaa;
+  font-family: 'Ubuntu';
+  font-weight: 300;
+}
+.container {
+  max-width: 1000px;
+  width:100%;
+  margin: 0 auto;
+}
+.logo {width: 60vw;}
+div {
+  position:static;
+  display:block;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+#hero {
+  display:flex;
+  flex-directon: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height:150px;
+  margin-top: 75px;
+}
+#health-risks {
+  margin-top: 30px;
+}
+#health-risks .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+}
+#health-risks .grid {
+  align-items: center;
+  text-align: center;
+  padding-left: 300px;
+}
+p {
+  font-size: 18px;
+}
+#healt-risks .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:125px;
+  width: 70vw;
+  padding: 5px;
+}
+.grid {
+  display: flex;
+}
+h2 {
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 40px;
+  
+}
+h4 {
+  font-size: 25px;
+}
+p {
+  display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  font-family: 'Kirang Haerang', cursive;
+}
+h2, h1, h4 {
+  font-family: 'Kirang Haerang', cursive;
+}
+
+nav ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li {
+    display: list-item;
+    text-align: center;
+    list-style: none;
+  font-family: 'Ubuntu';
+}
+@media (max-width: 650px)
+nav li {
+    padding-bottom: 5px;
+}
+#john-oliver {
+  padding-left: 300px;
+  align-items: center;
+  width: 75vw;
+  
+}
+#support #devsupport .li, #support #shirts .li{
+  padding-right: 250px;
+}
+#support #devsupport, #support #shirts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+@media (max-width: 800px)
+#support #devsupport, #support #shirts {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px
+}
+#support {
+  margin-top: 60px;
+  display: flex;
+  justify-content:center;
+  
+}
+#support #devsupport .level, #support #shirts .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-transform: uppercase;
+    color: initial;
+  font-family: 'Kirang Haerang', cursive;
+      background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+}
+#support #shirts p, #support #devsupport p {
+  padding-right:30px;
+  padding-left: 30px;
+}
+#support #shirts, #support #devsupport {
+  background-color:#eee;
+}
